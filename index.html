@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Student Data</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+      color: #343a40;
+    }
+
+    img {
+      display: block;
+      margin: 10px auto;
+      border: 2px solid #dee2e6;
+      border-radius: 5px;
+    }
+
+    table {
+      width: 100%;
+      margin: 20px 0;
+    }
+
+    th, td {
+      text-align: center;
+    }
+
+    ul, ol {
+      margin: 0 auto;
+      padding: 0;
+      max-width: 600px;
+    }
+
+    ul img {
+      margin-left: 10px;
+      vertical-align: middle;
+    }
+
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+
+    a:hover {
+      color: #0056b3;
+    }
+  
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Abdullah Student Data</h1>
+    <img src="PGC.png" alt="Web" class="img-fluid rounded-circle" style="max-width: 150px;">
+    <div class="text-center my-3">
+      <h2>PGC</h2>
+      <p><a href="https://www.pgc.edu" target="_blank" class="btn btn-primary btn-sm">Visit PGC Website</a></p>
+    </div>
+
+    <table class="table table-bordered table-striped">
+      <thead class="table-dark">
+        <tr>
+          <th colspan="2">Name</th>
+          <th colspan="2">Class</th>
+          <th>Roll No</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">Abdullah</td>
+          <td colspan="2">Engg C1ST</td>
+          <td>51314</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="my-5">
+      <h2>My Subjects</h2>
+      <div class="row">
+        <!-- Science Subjects -->
+        <div class="col-md-6">
+          <h3>Science Subjects:</h3>
+          <ul class="list-unstyled">
+            <li>Chemistry <img src="Chemistry.png" alt="Chemistry" class="img-fluid " style="max-width: 50px;"></li>
+            <li>Physics <img src="Physics.png" alt="Physics" class="img-fluid  " style="max-width: 50px;"></li>
+            <li>Math <img src="Math.png" alt="Math" class="img-fluid " style="max-width: 50px;"></li>
+          </ul>
+        </div>
+        <!-- Arts Subjects -->
+        <div class="col-md-6">
+          <h3>Arts Subjects:</h3>
+          <ol class="list-group list-group-numbered">
+            <li class="list-group-item">English</li>
+            <li class="list-group-item">Al Quran</li>
+            <li class="list-group-item">Islamiat</li>
+            <li class="list-group-item">Urdu</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (Optional for interactivity) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
